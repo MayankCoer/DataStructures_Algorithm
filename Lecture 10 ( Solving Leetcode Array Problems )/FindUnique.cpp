@@ -8,6 +8,7 @@ void findUnique(int arr[], int size)
         ans = ans ^ arr[i] ;
     }
     cout << ans << endl;
+    cout << "Searching Done" << endl;
 }
 int main(){
     int arr[5] = {2 , 4 ,7 ,2 ,7};
